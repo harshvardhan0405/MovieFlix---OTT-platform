@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MovieFlix</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+
+  <!-- LEFT -->
+  <div class="nav-left">
+
+    <div class="logo">
+      MOVIEFLIX
+    </div>
+
+    <div class="nav-links">
+
+      <a href="#home">Home</a>
+
+      <a href="#movies">Movies</a>
+
+      <a href="#series">Series</a>
+
+      <a href="#anime">Anime</a>
+
+    </div>
+
+  </div>
+
+  <!-- RIGHT -->
+  <div class="nav-right">
+
+  <button class="login-btn" id="openLogin">
+    Login
+  </button>
+
+</div>
+</nav>
+<!-- LOGIN POPUP -->
+
+
+<div class="login-popup" id="loginPopup">
+
+  <div class="login-box">
+
+    <span class="close-btn" id="closeLogin">&times;</span>
+
+    <h2>Create Account</h2>
+
+    <input type="text" placeholder="Full Name" required>
+
+    <input type="tel" placeholder="Phone Number" required>
+
+    <select>
+
+      <option>Gender</option>
+
+      <option>Male</option>
+
+      <option>Female</option>
+
+      <option>Other</option>
+
+    </select>
+
+    <input type="email" placeholder="Email Address" required>
+
+    <input type="date">
+
+    <input type="password" placeholder="Password" required>
+
+    <button class="signin-btn">
+      Sign Up
+    </button>
+
+  </div>
+
+</div>
+<div class ="app">
+<!-- 🔥 HERO BANNER -->
+<!-- HERO BANNER -->
+<section class="banner" id="home">
+
+  <div class="overlay"></div>
+
+  <div class="banner-content">
+
+    <h1 id="banner-title">Interstellar</h1>
+      <div class="movie-info">
+        <span id="banner-rating">⭐ 9.2</span>
+        <span id="banner-duration">2h 49m</span>
+        <span id="banner-episodes">Movie</span>
+     </div>
+
+    <p id="banner-desc">
+      A journey beyond time and space to save humanity.
+      <button id="watchTrailer" class="trailer-btn">▶ Watch Trailer</button>
+    </p>
+
+    <div class="banner-buttons">
+      <button class="play">▶ Play</button>
+      <button class="more">More Info</button>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- 🔥 CATEGORY 1 -->
+ <section class="row">
+  <h2>New To MOVIEFLIX</h2>
+
+  <div class="scroll-row">
+
+    <div class="card"><img src="images/m1Bring Her Back.jpg" data-title="Bring Her Back"></div>
+    <div class="card"><img src="images/m2.jpg" data-title="Final Destination bloodline"></div>
+    <div class="card"><img src="images/m3Primate.jpg" data-title="Primate"></div>
+    <div class="card"><img src="images/m4Zootopia 2.jpg" data-title="Zootopia 2"></div>
+    <div class="card"><img src="images/m5New Xeno.jpg" data-title="Xeon"></div>
+    <div class="card"><img src="images/m6Muddy.jpg" data-title="Muddy"></div>
+    <div class="card"><img src="images/m7The Woman In The Yard, 2025_.jpg" data-title="The Women In The Yard"></div>
+    <div class="card"><img src="images/m8jurrassic world.jpg" data-title="Jurrassic World"></div>
+    <div class="card"><img src="images/m9dhurandhar 2.jpg" data-title="Dhurandhar 2"></div>
+    <div class="card"><img src="images/m10bhoot bangla.jpg" data-title="Bhooth Bangla"></div>
+
+
+  </div>
+</section>
+
+ <section class="row">
+  <h2>Suggestion</h2>
+  <div class="scroll-row">
+<div class="card">
+  <img src="images/s10COOLIE Masterpiece __ ZONOXO_EDITS.jpg" data-title="Coolie">
+</div>
+<div class="card">
+  <img src="images/m3Primate.jpg" data-title="Primate"> 
+</div>
+<div class="card">
+  <img src="images/holly3.jpg" data-title="Captain America The First Avenger"> 
+</div>
+<div class="card">
+  <img src="images/anime1.jpg" data-title="Jujutsu Kaisen" data-type="series">
+</div>
+<div class="card">
+  <img src="images/series1.jpg" data-title="Stranger things" data-type="series">
+  <img src="images/m1Bring Her Back.jpg" data-title="Bring her Back">
+</div>
+<div class="card">
+  <img src="images/s2kgf chapter 2.jpg" data-title="KGF 2"> 
+</div>
+<div class="card">
+  <img src="images/cartoon2.jpg" data-title="Spider Man beyond the spider Verse"> 
+</div>
+<div class="card">
+  <img src="images/kd1.jpg" data-title="Goblin the lonely and the great god " data-type="series">
+</div>
+<div class="card">
+  <img src="images/km1.jpg" data-title="Forgotten">
+</div>
+</div>
+  </div>
+</section>
+<section class="row" id = "top10">
+  <h2>Top Sci-Fi Movies</h2>
+
+  <div class="top10-row">
+
+    <div class="top-card">
+      <span class="rank">1</span>
+      <img src="images/sf1Extinction.jpg" data-title="Ectinction ">
+    </div>
+    <div class="top-card">
+      <span class="rank">2</span>
+      <img src="images/sf2Inception (2010).jpg" data-title="Inception">
+    </div>
+    <div class="top-card">
+      <span class="rank">3</span>
+      <img src="images/sf3.jpg" data-title="Pacific Rim ">
+    </div>
+    <div class="top-card">
+      <span class="rank">4</span>
+      <img src="images/sf4.jpg" data-title="Predator Badlands" data-type="series">
+    </div>
+
+    <div class="top-card">
+      <span class="rank">5</span>
+      <img src="images/sf5Terminator Dark Fate.jpg" data-title="Terminator Dark Fate" data-type="series">
+    </div>
+
+    <div class="top-card">
+      <span class="rank">6</span>
+      <img src="images/sf6The Adam project (2022) - Shawn Levy.jpg" data-title="The adam Project">
+    </div>
+
+    <div class="top-card">
+      <span class="rank">7</span>
+      <img src="images/sf7Transformers_ Age of Extinction.jpg" data-title="Transformers Age of Extinction">
+    </div>
+
+    <div class="top-card">
+      <span class="rank">8</span>
+      <img src="images/s8_Interstellar_ advance movie poster, 2014_.jpg" data-title="Interstellar">
+    </div>
+
+    <div class="top-card">
+      <span class="rank">9</span>
+      <img src="images/s9Lucy (2014) [1400  2217] by Steve Yi.jpg" data-title="Lucy">
+    </div>
+
+    <div class="top-card">
+      <span class="rank">10</span>
+      <img src="images/s10«Gledelig ambisiøs science fiction!».jpg" data-title="Dune">
+    </div>
+
+  </div>
+</section>
+<section class="row" id = "anime">
+  <h2>Top-Trending Anime</h2>
+
+  <div class="scroll-row">
+    <div class="card">
+      <img src="images/anime1.jpg" data-title="Jujutsu Kaisen">
+    </div>
+     <div class="card">
+      <img src="images/anime2.jpg" data-title="Blue lock">
+    </div>
+    <div class="card">
+      <img src="images/anime3.jpg" data-title="Death Note">
+    </div>
+    <div class="card">
+      <img src="images/anime4.jpg" data-title="kaiju No. 8">
+    </div>
+    <div class="card">
+      <img src="images/anime5.jpg" data-title="Solo Leveling">
+    </div>
+     <div class="card">
+      <img src="images/anime6.jpg" data-title="Naruto">
+    </div>
+    <div class="card">
+      <img src="images/anime7.jpg" data-title="Demon Slayer">
+    </div>
+    <div class="card">
+      <img src="images/anime8.jpg" data-title="Attack On Titan">
+    </div>
+    <div class="card">
+      <img src="images/anime9.jpg" data-title="Chainsaw Man">
+    </div>
+    <div class="card">
+      <img src="images/anime10.jpg" data-title="My Hero Academy">
+    </div>
+
+  </div>
+</section>
+<div id="series">
+<section class="row">
+  <h2>Trending Series</h2>
+
+  <div class="scroll-row">
+
+    <div class="card"><img src="images/series1.jpg" data-title="Stranger Things"></div>
+    <div class="card"><img src="images/series2.jpg" data-title="Wednesday" ></div>
+    <div class="card"><img src="images/series3.jpg" data-title="Bridgerton" ></div>
+    <div class="card"><img src="images/series4.jpg" data-title="Breaking Bad"></div>
+    <div class="card"><img src="images/series5.jpg" data-title="All Of us Are Dead"></div>
+    <div class="card"><img src="images/series6.jpg" data-title="Peaky Blinder"></div>
+    <div class="card"><img src="images/series7.jpg" data-title="Dark"></div>
+    <div class="card"><img src="images/series8.jpg" data-title="Walking Dead"></div>
+    <div class="card"><img src="images/series9.jpg" data-title="Alice in the border Land"></div>
+    <div class="card"><img src="images/series10.jpg" data-title="Money Heist"></div>
+
+
+  </div>
+
+</section>
+<section class="row">
+  <h2>K-Drama</h2>
+
+  <div class="scroll-row">
+
+    <div class="card"><img src="images/goblin.jpg" data-title="Goblin"></div>
+    <div class="card"><img src="images/Crash Landing on You (2019).jpg" data-title="Crash landing on you"></div>
+    <div class="card"><img src="images/When Life Gives You Tangerines, Discover the Sweetness in Every Challenge.jpg" data-title="When Life Gives You Tangerines"></div>
+    <div class="card"><img src="images/f4 thailand.jpg" data-title="F4 thailand"></div>
+    <div class="card"><img src="images/My Demon _ 마이 데몬.jpg" data-title="My demon"></div>
+    <div class="card"><img src="images/ks6True beauty   Истеная красота.jpg" data-title="True beauty"></div>
+    <div class="card"><img src="images/ks7King the Land.jpg" data-title="King of the land"></div>
+    <div class="card"><img src="images/ks8Hidden Love.jpg" data-title="Hidsden love"></div>
+    <div class="card"><img src="images/ks9 if wish could kill.jpg" data-title="If wishes could kill"></div>
+    <div class="card"><img src="images/k10 vinchenzo.jpg" data-title=" vincenzo 2021"></div>
+</div>
+<div id="movies">
+<section class="row">
+  <h2>HollyWood Action Movies</h2>
+
+  <div class="scroll-row">
+
+    <div class="card"><img src="images/holly1.jpg" data-title="Stranger Things"></div>
+    <div class="card"><img src="images/holly2.jpg" data-title="Stranger Things"></div>
+    <div class="card"><img src="images/holly3.jpg" data-title="Stranger Things"></div>
+    <div class="card"><img src="images/holly4.jpg" data-title="Stranger Things"></div>
+    <div class="card"><img src="images/holly5.jpg" data-title="Stranger Things"></div>
+    <div class="card"><img src="images/holly6.jpg" data-title="Stranger Things"></div>
+    <div class="card"><img src="images/holly7.jpg" data-title="Stranger Things"></div>
+    <div class="card"><img src="images/holly8.jpg" data-title="Stranger Things"></div>
+    <div class="card"><img src="images/holly9.jpg" data-title="Stranger Things"></div>
+    <div class="card"><img src="images/holly10.jpg" data-title="Stranger Things"></div>
+
+
+  </div>
+</section>
+<section class="row">
+  <h2>Trending Animated Movies</h2>
+
+  <div class="scroll-row">
+
+    <div class="card"><img src="images/cartoon1.jpg" data-title="Spider man Across the spider verse"></div>
+    <div class="card"><img src="images/cartoon2.jpg" data-title="Spider man Beyond the spider verse"></div>
+    <div class="card"><img src="images/cartoon3.jpg" data-title="Zootopia 1"></div>
+    <div class="card"><img src="images/cartoon4.jpg" data-title="The Sea Beast"></div>
+    <div class="card"><img src="images/cartoon5.jpg" data-title="Puss In Boots"></div>
+    <div class="card"><img src="images/cartoon6.jpg" data-title="Big Hero 6"></div>
+    <div class="card"><img src="images/cartoon7.jpg" data-title="How To Train Your Dragon"></div>
+    <div class="card"><img src="images/cartoon8.jpg" data-title="Next Gen"></div>
+    <div class="card"><img src="images/cartoon9.jpg" data-title="Kung Fu Panda 3"></div>
+    <div class="card"><img src="images/cartoon10.jpg" data-title="Baby Boss"></div>
+
+
+  </div>
+</section>
+<section class="row">
+  <h2>Horror Movies</h2>
+
+  <div class="scroll-row">
+
+    <div class="card"><img src="images/hm1.jpg" data-title="Insidious"></div>
+    <div class="card"><img src="images/hm2.jpg" data-title="The Conjuring The devil made me do it"></div>
+    <div class="card"><img src="images/hm3.jpg" data-title="The Nun 2"></div>
+    <div class="card"><img src="images/hm4.jpg" data-title="Terrifier 3"></div>
+    <div class="card"><img src="images/hm5.jpg" data-title="Until Dawn"></div>
+    <div class="card"><img src="images/hm6.jpg" data-title="Hereditary"></div>
+    <div class="card"><img src="images/hm7.jpg" data-title="Wini The Pooh blood And Honey"></div>
+    <div class="card"><img src="images/hm8.jpg" data-title="Megan"></div>
+    <div class="card"><img src="images/hm9.jpg" data-title="Evil Dead Rise"></div>
+    <div class="card"><img src="images/hm10.jpg" data-title="The Ritual"></div>
+
+
+  </div>
+</section>
+
+<section class="row">
+  <h2>Korean Movies</h2>
+
+  <div class="scroll-row">
+
+    <div class="card"><img src="images/km10 home sweet.jpg" data-title="Sweet Home"></div>
+    <div class="card"><img src="images/km9Holy Night_ Demon Hunters (2025).jpg" data-title="Holy Night Demon Hunters (2025)"></div>
+    <div class="card"><img src="images/m8 mercy for none.jpg" data-title="Mercy for None"></div>
+    <div class="card"><img src="images/km7Mantis Korean Movie Poster.jpg" data-title="Mantis"></div>
+    <div class="card"><img src="images/km6HellBound.jpg" data-title="HellBound"></div>
+    <div class="card"><img src="images/kmm2.jpg" data-title="My Name"></div>
+    <div class="card"><img src="images/km2.jpg" data-title="Forgotten"></div>
+    <div class="card"><img src="images/km3.jpg" data-title="Parasite"></div>
+    <div class="card"><img src="images/km4.jpg" data-title="Train to busan"></div>
+    <div class="card"><img src="images/km5.jpg" data-title="The Gangster THe cop The devil"></div>
+
+
+  </div>
+</section>
+<section class="row">
+  <h2>South Hits</h2>
+
+  <div class="scroll-row">
+
+    <div class="card"><img src="images/s4pushpa poster.jpg" data-title="Pushpa 2"></div>
+    <div class="card"><img src="images/s6Leo.jpg" data-title="Leo (2023)"></div>
+    <div class="card"><img src="images/s8Salaar.jpg" data-title="Salaar"></div>
+    <div class="card"><img src="images/s5Movie _ Jailer.jpg" data-title="Jailer"></div>
+    <div class="card"><img src="images/s10COOLIE Masterpiece __ ZONOXO_EDITS.jpg" data-title="Coolie"></div>
+    <div class="card"><img src="images/s7KantaraChapter1.jpg" data-title="Kantara"></div>
+    <div class="card"><img src="images/s9Devara — 2024.jpg" data-title="Devara 1"></div>
+    <div class="card"><img src="images/s3vikram.jpg" data-title="Vikram"></div>
+    <div class="card"><img src="images/s2kgf chapter 2.jpg" data-title="KGF 2"></div>
+    <div class="card"><img src="images/s1The Paradise Movie Poster.jpg" data-title="Paradise"></div>
+
+
+  </div>
+</section>
+<d>
+</div>
+</div>
+<div class="movie-modal" id="movieModal">
+  <div class="modal-content">
+
+    <span class="close-modal" id="closeModal">&times;</span>
+
+    <img id="modal-img" src="">
+    <h2 id="modal-title">Movie Name</h2>
+    <p id="modal-desc">Description here...</p>
+
+  </div>
+  <script>
+  // ================= LOGIN (same) =================
+// LOGIN (same)
+const openLogin = document.getElementById("openLogin");
+const closeLogin = document.getElementById("closeLogin");
+const loginPopup = document.getElementById("loginPopup");
+
+openLogin.onclick = () => loginPopup.classList.add("show");
+closeLogin.onclick = () => loginPopup.classList.remove("show");
+
+window.onclick = (e) => {
+  if (e.target == loginPopup) {
+    loginPopup.classList.remove("show");
+  }
+};
+
+// MODAL
+const modal = document.getElementById("movieModal");
+const modalImg = document.getElementById("modal-img");
+const modalTitle = document.getElementById("modal-title");
+const modalDesc = document.getElementById("modal-desc");
+
+document.getElementById("closeModal").onclick = () => {
+  modal.classList.remove("show");
+};
+
+// API
+const API_KEY = "cd7fd352bda84df7464e5c07934b2d35";
+
+// CLICK EVENT
+const cards = document.querySelectorAll(".card img");
+
+cards.forEach(card => {
+
+  card.addEventListener("click", async () => {
+
+    const title = card.dataset.title;
+
+    // ✅ FIX: handle missing title
+    if (!title) {
+      modal.classList.add("show");
+      modalImg.src = card.src;
+      modalTitle.innerText = "No Title";
+      modalDesc.innerText = "No data available";
+      return;
+    }
+
+    const type = card.dataset.type || "movie";
+
+    modal.classList.add("show");
+    modalImg.src = card.src;
+    modalTitle.innerText = "Loading...";
+    modalDesc.innerText = "Fetching data...";
+
+    try {
+
+      let url = `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=${title}`;
+
+      if (type === "series") {
+        url = `https://api.themoviedb.org/3/search/tv?api_key=${API_KEY}&query=${title}`;
+      }
+
+      const res = await fetch(url);
+      const data = await res.json();
+
+      const result = data.results[0];
+
+      if (result) {
+
+        modalTitle.innerText = result.title || result.name;
+        modalDesc.innerText = result.overview;
+
+        // ✅ FIX: dynamic poster
+        if (result.poster_path) {
+          modalImg.src = "https://image.tmdb.org/t/p/w500" + result.poster_path;
+        }
+
+        let extra = "";
+
+        if (type === "series") {
+          extra = "📺 TV Series";
+        } else {
+          extra = "🎬 Movie | Release: " + result.release_date;
+        }
+
+        modalDesc.innerText += "\n\n⭐ Rating: " + result.vote_average + "\n" + extra;
+
+      } else {
+        modalDesc.innerText = "No data found 😢";
+      }
+
+    } catch (err) {
+      modalDesc.innerText = "Error loading data";
+    }
+
+  });
+
+});
+const trailerBtn = document.getElementById("watchTrailer");
+
+cards.forEach(card => {
+
+  card.addEventListener("click", async () => {
+
+    const title = card.dataset.title;
+
+    if (!title) return;
+
+    const type = card.dataset.type || "movie";
+
+    modal.classList.add("show");
+    modalImg.src = card.src;
+    modalTitle.innerText = "Loading...";
+    modalDesc.innerText = "Fetching data...";
+
+    try {
+
+      let searchURL = `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=${title}`;
+
+      if(type === "series"){
+        searchURL = `https://api.themoviedb.org/3/search/tv?api_key=${API_KEY}&query=${title}`;
+      }
+
+      const res = await fetch(searchURL);
+      const data = await res.json();
+
+      const result = data.results[0];
+
+      if(result){
+
+        modalTitle.innerText = result.title || result.name;
+        modalDesc.innerText = result.overview;
+
+        // 🔥 Poster change
+        if(result.poster_path){
+          modalImg.src = "https://image.tmdb.org/t/p/w500" + result.poster_path;
+        }
+
+        // ⭐ Extra Info
+        let extra = "";
+
+        if(type === "series"){
+          extra = "📺 TV Series";
+        } else {
+          extra = "🎬 Movie | Release: " + result.release_date;
+        }
+
+        modalDesc.innerText += "\n\n⭐ Rating: " + result.vote_average + "\n" + extra;
+
+        // 🎬 TRAILER FETCH
+        let videoURL = `https://api.themoviedb.org/3/movie/${result.id}/videos?api_key=${API_KEY}`;
+
+        if(type === "series"){
+          videoURL = `https://api.themoviedb.org/3/tv/${result.id}/videos?api_key=${API_KEY}`;
+        }
+
+        const vidRes = await fetch(videoURL);
+        const vidData = await vidRes.json();
+
+        const trailer = vidData.results.find(v => v.type === "Trailer");
+
+        if(trailer){
+          trailerBtn.style.display = "block";
+
+          trailerBtn.onclick = () => {
+            window.open(`https://www.youtube.com/watch?v=${trailer.key}`, "_blank");
+          };
+
+        } else {
+          trailerBtn.style.display = "none";
+        }
+
+      }
+
+    } catch(err){
+      modalDesc.innerText = "Error loading data";
+      trailerBtn.style.display = "none";
+    }
+
+  });
+
+});
+</script>
+</div>
+</body>
+</html>

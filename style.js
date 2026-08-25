@@ -1,4 +1,5 @@
 const cards = document.querySelectorAll(".card img");
+
 const modal = document.getElementById("movieModal");
 const modalImg = document.getElementById("modal-img");
 const modalTitle = document.getElementById("modal-title");
